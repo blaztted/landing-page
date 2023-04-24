@@ -96,3 +96,43 @@ img{
     
     
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.row-of-blue-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+
+}
+
+.box-blue{
+    border: 3px solid #3882F6;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+   
+    
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+.p-second{
+    text-align: center;
+    font-size: 18px;
+}
